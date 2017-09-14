@@ -21,4 +21,8 @@ public class Product {
 	public void setPrice(double price) {
 		this.price = price;
 	} 
+	
+	public String toString() {
+		return name + ", cena: " + price + "dolarow.";
+	}
 }

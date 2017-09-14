@@ -28,4 +28,7 @@ public class CartItem {
 	public void setProduct(Product product) {
 		this.product = product;
 	}
+	public String toString() {
+		return product + ", ilosc: " + quantity + "szt.";
+	}
 }
