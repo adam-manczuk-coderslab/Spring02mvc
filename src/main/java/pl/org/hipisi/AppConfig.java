@@ -19,6 +19,11 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 	Cart cart() {
 		return new Cart();
 	}
+	
+	@Bean
+	FileLoader fileLoader() {
+		return new FileLoader();
+	}
 
 	@Bean
 	public ViewResolver viewResolver() {
