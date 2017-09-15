@@ -25,7 +25,7 @@ public class CartController {
 	        Random rand = new Random();
 	        cart.addToCart(new CartItem(1, new Product("prod" + rand.nextInt(10), rand.nextDouble())));
 	        model.addAttribute("cart", cart);
-	        return "addtocart.jsp";
+	        return "addtocart";
 	}
 
 }
